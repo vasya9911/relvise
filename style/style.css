@@ -7,3 +7,38 @@ body{
     font-weight: 500;
     background-color: antiquewhite;
 }
+
+/*-------------menu ----------------*/
+
+.menu {
+}
+.menu__wrapper {
+    display: flex;
+    flex-direction: row;
+    max-width: 1046px;
+    margin: 0 auto;
+    padding: 36px 0px;
+    align-items: center;
+}
+.menu__logo {
+    margin-right: 132px;
+}
+.menu__itmes {
+    display: flex;
+    width: 282px;
+    justify-content: space-between;
+}
+.item-menu__item {
+    text-decoration: none;
+    color: #737373;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.item-menu__item:hover{
+    color: #3f3f3f;
+    text-shadow: 0 0 1px #959595;
+}
+/*-------------menu end----------------*/
