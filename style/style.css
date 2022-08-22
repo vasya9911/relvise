@@ -12,7 +12,6 @@ body{
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
-    background-color: antiquewhite;
 }
 
 .wrapper{
@@ -22,8 +21,6 @@ body{
 
 /*-------------menu ----------------*/
 
-.menu {
-}
 .menu__wrapper {
     display: flex;
     flex-direction: row;
@@ -63,7 +60,6 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -104px;
-    padding-top: 104px;
 }
 .header__wrapper {
     display: flex;
@@ -133,13 +129,22 @@ body{
     padding-left: 40px;
     padding-bottom: 10px;
     gap: 10px 0;
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+}
+.services__item:hover{
+    background-color: #0D5C63;
+    cursor: default;
 }
 .services__logo {
     width: 48px;
     height: 48px;
 }
-.services__logo svg:hover{
-    fill:white;
+.services__item:hover .services__logo svg{
+    fill: #fff;
 }
 .services__title {
     font-size: 24px;
@@ -148,12 +153,18 @@ body{
     letter-spacing: .1px;
     color: #252B42;
 }
+.services__item:hover .services__title {
+    color: white;
+}
 .services__text {
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
     letter-spacing: .2px;
     color: #737373;
+}
+.services__item:hover .services__text {
+    color: white;
 }
 
 /*-------------header end----------------*/
