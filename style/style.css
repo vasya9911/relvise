@@ -380,9 +380,6 @@ body{
 
 /*------------- clients----------------*/
 
-.clients {
-
-}
 .clients::after {
     content: "";
     position: absolute;
@@ -394,7 +391,6 @@ body{
 }
 .clients__wrapper {
     align-items: center;
-    padding-top: ;
 }
 .clients__logo {
     display: flex;
@@ -459,3 +455,50 @@ form{
 }
 
 /*------------- clients end----------------*/
+
+/*------------- contact----------------*/
+
+.contact {
+    background-color: #F3F3F3;
+}
+.contact__wrapper {
+    align-items: center;
+}
+.contact__titile {
+}
+.contact__text {
+}
+.contact__row-item {
+    display: flex;
+    flex-direction: row;
+    width: 94.17%;
+}
+.contact__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card {
+    width: 33.33%;
+}
+.card:not(:nth-child(2)){
+    padding: 50px 40px;
+    background-color: #fff;
+}
+.card:nth-child(2){
+    background-color: #252B42;
+    padding: 80px 40px;
+}
+.card__logo {
+}
+.card__email-1 {
+}
+.card__email-2 {
+}
+.card__title {
+}
+.card__submit {
+}
+
+/*------------- contact end----------------*/
