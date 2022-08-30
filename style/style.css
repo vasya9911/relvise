@@ -479,14 +479,14 @@ form{
     align-items: center;
     justify-content: center;
 }
-.card {
+.contact__row-item .card {
     width: 33.33%;
 }
-.card:not(:nth-child(2)){
+.contact__row-item .card:not(:nth-child(2)){
     padding: 50px 40px;
     background-color: #fff;
 }
-.card:nth-child(2){
+.contact__row-item .card:nth-child(2){
     background-color: #252B42;
     padding: 80px 40px;
 }
