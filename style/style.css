@@ -463,15 +463,32 @@ form{
 }
 .contact__wrapper {
     align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .contact__titile {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: .2px;
+    text-align: left;
+    color: #252B42;
 }
 .contact__text {
+    max-width: 470px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: .2px;
+    color: #737373;
+    padding-top: 10px;
 }
 .contact__row-item {
     display: flex;
     flex-direction: row;
+    align-items: center;
     width: 94.17%;
+    margin-top: 80px;
 }
 .contact__card {
     display: flex;
@@ -491,14 +508,42 @@ form{
     padding: 80px 40px;
 }
 .card__logo {
+    margin-bottom: 15px;
 }
-.card__email-1 {
+.card__email-decor{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: .2px;
+    color: #252B42;
 }
-.card__email-2 {
+.contact__row-item .card:nth-child(2) *{
+    color: #fff;
 }
+.card:nth-child(2) .card__submit{
+    border: 1px solid #fff;
+}
+
 .card__title {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 .card__submit {
+    padding: 10px 20px;
+    border: 1px solid #FF7B47;
+    border-radius: 5px;
+    color: #FF7B47;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: .2px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.card__submit:hover{
+    cursor: pointer;
 }
 
 /*------------- contact end----------------*/
