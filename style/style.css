@@ -547,3 +547,47 @@ form{
 }
 
 /*------------- contact end----------------*/
+
+/*-------------footer----------------*/
+
+.footer {
+}
+.footer__contact {
+}
+.contact-footer {
+}
+.contact-footer__col {
+}
+.contact-footer__title {
+}
+.contact-footer__text {
+}
+.contact-footer__submit {
+}
+.footer__container {
+}
+.footer__row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.footer__list {
+    width: 14.15%;
+    list-style: none;
+}
+.footer__list-item {
+}
+.list-title-decor {
+}
+.logo {
+}
+.footer__bottom {
+}
+.footer__end-lable {
+}
+.footer__logo-row {
+}
+.footer__social-logo {
+}
+
+/*-------------footer end----------------*/
