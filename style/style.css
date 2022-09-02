@@ -551,43 +551,121 @@ form{
 /*-------------footer----------------*/
 
 .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.footer__contact {
-}
+
 .contact-footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 20px;
+    padding-top: 57px;
+    padding-bottom: 57px;
 }
 .contact-footer__col {
+    display: flex;
+    flex-direction: column;
 }
 .contact-footer__title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: .1px;
+    text-align: left;
+    color: #252B42;
 }
 .contact-footer__text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: .2px;
+    text-align: left;
+    color: #737373;
 }
 .contact-footer__submit {
+    padding: 15px 40px;
+    background-color: #FF7B47;
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 .footer__container {
+    background-color: #17213C;
+    width: 100%;
 }
 .footer__row {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .footer__list {
-    width: 14.15%;
-    list-style: none;
+    list-style: none;;
+    order: 2;
+    flex-grow: 2;
 }
-.footer__list-item {
+.footer__list:last-child{
+    order: 4;
+    flex-grow: 4;
 }
-.list-title-decor {
+.footer__list:last-child .footer__list-item{
+    display: flex;
 }
-.logo {
+.footer__list-item a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: .2px;
+    text-align: left;
+}
+.footer__list-item:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer__list-item:first-child{
+    margin-bottom: 20px;
+}
+.list-title-decor a {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: .1px;
+    text-align: left;
+}
+.footer__list-item .logo {
+    margin-right: 10px;
 }
 .footer__bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 437px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .footer__end-lable {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: .2px;
+    text-align: left;
+    color: #737373;
 }
 .footer__logo-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 20px;
 }
-.footer__social-logo {
-}
+
 
 /*-------------footer end----------------*/
