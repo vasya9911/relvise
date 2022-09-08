@@ -764,9 +764,71 @@ form{
         align-items: center;
         justify-items: center;
     }
+    .contact-footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+    }
+    .contact-footer__col{
+        align-items: center;
+    }
 }
 @media screen and (max-width: 610px) {
     .about__video img{
         width: 100%;
+    }
+    .header__services{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .services__item{
+        width: 60%;
+    }
+    .subscribe form{
+        display: flex;
+        width: 98%;
+        background-color: none;
+    }
+    .subscribe__email{
+        width: auto;
+        flex-grow: 1;
+    }
+    .contact__row-item .card:not(:nth-child(2)){
+        width: 70%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .menu__wrapper{
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .menu__logo{
+        margin-right: 0;
+    }
+    .statistic__cards-row{
+        grid-template-columns: 45% 45%;
+    }
+    /*advice*/
+    .row-item{
+        grid-template-columns: 45% 45%;
+    }
+    .contact-footer__title{
+        text-align: center;
+    }
+}
+@media screen and (max-width: 400px) {
+    .header__title{
+        font-size: 40px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .statistic__cards-row{
+        grid-template-columns: 60%;
+    }
+    /*advice*/
+    .row-item{
+        grid-template-columns: 60%;
     }
 }
